@@ -1,35 +1,51 @@
 html, body {
-    position: relative;
-    height: 100%;
-}
+  position: relative;
+  height: 100%;
+  font-family: "Helvetica Neue"; }
+
 body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color:#000;
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
+
 .swiper-container {
-    width: 100%;
+  width: 100%;
+  height: 100%; }
+  .swiper-container .swiper-slide .landing-page {
     height: 100%;
-}
-.swiper-slide {
-    height: 100px;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-}
+    background-image: url("../assets/imgs/landing_background.JPG");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .swiper-container .swiper-slide .landing-page .headline {
+      position: absolute;
+      top: calc(100% - 85%);
+      left: calc(100% - 85%); }
+      .swiper-container .swiper-slide .landing-page .headline img {
+        height: 200px;
+        width: 200px;
+        display: inline-block;
+        vertical-align: middle; }
+      .swiper-container .swiper-slide .landing-page .headline h1 {
+        color: #fff;
+        font-size: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10px; }
+    .swiper-container .swiper-slide .landing-page .navigation {
+      position: absolute;
+      bottom: 0;
+      left: calc(100% - 55%); }
+      .swiper-container .swiper-slide .landing-page .navigation i {
+        color: #fff;
+        font-size: 60px;
+        text-align: center;
+        display: block;
+        margin: 0;
+        padding: 0; }
+      .swiper-container .swiper-slide .landing-page .navigation p {
+        color: #fff;
+        font-size: 25px;
+        display: block;
+        margin: 0;
+        padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
