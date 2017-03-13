@@ -93,25 +93,33 @@ body {
         margin: -10px;
         padding: 0; }
   .swiper-container .swiper-slide .general-informations {
-    height: 100%; }
+    height: 100%;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+    vertical-align: middle; }
     .swiper-container .swiper-slide .general-informations .foreword {
-      height: 200px;
-      width: 300px;
+      margin: 0;
+      height: 280px;
+      width: 40%;
       background-color: red;
       display: inline-block; }
     .swiper-container .swiper-slide .general-informations .opening-times {
-      height: 200px;
-      width: 300px;
+      margin: 0;
+      height: 280px;
+      width: 40%;
       background-color: blue;
       display: inline-block; }
     .swiper-container .swiper-slide .general-informations .location {
-      height: 200px;
-      width: 300px;
+      margin: 0;
+      height: 280px;
+      width: 40%;
       background-color: green;
       display: inline-block; }
     .swiper-container .swiper-slide .general-informations .contact {
-      height: 200px;
-      width: 300px;
+      margin: 0;
+      height: 280px;
+      width: 40%;
       background-color: yellow;
       display: inline-block; }
 
