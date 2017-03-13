@@ -94,5 +94,25 @@ body {
         padding: 0; }
   .swiper-container .swiper-slide .general-informations {
     height: 100%; }
+    .swiper-container .swiper-slide .general-informations .foreword {
+      height: 200px;
+      width: 300px;
+      background-color: red;
+      display: inline-block; }
+    .swiper-container .swiper-slide .general-informations .opening-times {
+      height: 200px;
+      width: 300px;
+      background-color: blue;
+      display: inline-block; }
+    .swiper-container .swiper-slide .general-informations .location {
+      height: 200px;
+      width: 300px;
+      background-color: green;
+      display: inline-block; }
+    .swiper-container .swiper-slide .general-informations .contact {
+      height: 200px;
+      width: 300px;
+      background-color: yellow;
+      display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

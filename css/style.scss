@@ -125,6 +125,33 @@ body {
     .general-informations{
         height:100%;
 
+        .foreword{
+            height: 200px;
+            width: 300px;
+            background-color: red;
+            display: inline-block;
+        }
+        .opening-times{
+            height: 200px;
+            width: 300px;
+            background-color: blue;
+            display: inline-block;
+        }
+        .location{
+            height: 200px;
+            width: 300px;
+            background-color: green;
+            display: inline-block;
+
+        }
+        .contact{
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+            display: inline-block;
+
+        }
+
 
     }
 
