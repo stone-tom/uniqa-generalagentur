@@ -30,22 +30,127 @@ body {
         display: inline-block;
         vertical-align: middle;
         padding: 10px; }
-    .swiper-container .swiper-slide .landing-page .navigation {
+    .swiper-container .swiper-slide .landing-page .navigation-down {
+      width: 200px;
+      text-align: center;
+      cursor: pointer;
       position: absolute;
       bottom: 0;
-      left: calc(100% - 55%); }
-      .swiper-container .swiper-slide .landing-page .navigation i {
+      left: calc(100% - 57%); }
+      .swiper-container .swiper-slide .landing-page .navigation-down i {
         color: #fff;
         font-size: 60px;
         text-align: center;
         display: block;
         margin: 0;
         padding: 0; }
-      .swiper-container .swiper-slide .landing-page .navigation p {
+      .swiper-container .swiper-slide .landing-page .navigation-down p {
         color: #fff;
-        font-size: 25px;
+        font-size: 20px;
+        display: block;
+        margin: -10px;
+        padding: 0; }
+  .swiper-container .swiper-slide .general-informations {
+    height: 100%; }
+    .swiper-container .swiper-slide .general-informations .navigation-down {
+      width: 200px;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      bottom: 0;
+      left: calc(100% - 57%); }
+      .swiper-container .swiper-slide .general-informations .navigation-down i {
+        color: #000;
+        font-size: 60px;
+        text-align: center;
+        display: block;
+        margin: -10px;
+        padding: 0; }
+      .swiper-container .swiper-slide .general-informations .navigation-down p {
+        color: #000;
+        font-size: 20px;
         display: block;
         margin: 0;
         padding: 0; }
+    .swiper-container .swiper-slide .general-informations .navigation-up {
+      width: 200px;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      left: calc(100% - 57%); }
+      .swiper-container .swiper-slide .general-informations .navigation-up i {
+        color: #000;
+        font-size: 60px;
+        text-align: center;
+        display: block;
+        margin: -10px;
+        padding: 0; }
+      .swiper-container .swiper-slide .general-informations .navigation-up p {
+        color: #000;
+        font-size: 20px;
+        display: block;
+        margin: 0;
+        padding: 0; }
+  .swiper-container .swiper-slide .team-page .navigation-up {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 57%); }
+    .swiper-container .swiper-slide .team-page .navigation-up i {
+      color: #000;
+      font-size: 60px;
+      text-align: center;
+      display: block;
+      margin: -10px;
+      padding: 0; }
+    .swiper-container .swiper-slide .team-page .navigation-up p {
+      color: #000;
+      font-size: 20px;
+      display: block;
+      margin: 0;
+      padding: 0; }
+  .swiper-container .swiper-slide .team-page .navigation-down {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 57%); }
+    .swiper-container .swiper-slide .team-page .navigation-down i {
+      color: #000;
+      font-size: 60px;
+      text-align: center;
+      display: block;
+      margin: -10px;
+      padding: 0; }
+    .swiper-container .swiper-slide .team-page .navigation-down p {
+      color: #000;
+      font-size: 20px;
+      display: block;
+      margin: 0;
+      padding: 0; }
+  .swiper-container .swiper-slide .impressum .navigation-up {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: calc(100% - 57%); }
+    .swiper-container .swiper-slide .impressum .navigation-up i {
+      color: #000;
+      font-size: 60px;
+      text-align: center;
+      display: block;
+      margin: -10px;
+      padding: 0; }
+    .swiper-container .swiper-slide .impressum .navigation-up p {
+      color: #000;
+      font-size: 20px;
+      display: block;
+      margin: 0;
+      padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

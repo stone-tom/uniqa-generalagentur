@@ -41,7 +41,13 @@ body {
 
             }
         }
-.navigation{
+.navigation-down {
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 57%);
     i{
         color: #fff;
         font-size:  60px;
@@ -52,21 +58,152 @@ body {
     }
     p{
         color: #fff;
-        font-size: 25px;
+        font-size: 20px;
         display: block;
-        margin:0;
+        margin:-10px;
         padding:0;
     }
-    position: absolute;
-    bottom: 0;
-    left: calc(100% - 55%);
+
 
 }
 
    }
 
+    .general-informations{
+        height:100%;
+
+        .navigation-down {
+            width: 200px;
+            text-align: center;
+            cursor: pointer;
+            position: absolute;
+            bottom: 0;
+            left: calc(100% - 57%);
+            i{
+                color: #000;
+                font-size:  60px;
+                text-align: center;
+                display: block;
+                margin:-10px;
+                padding:0;
+            }
+            p{
+                color: #000;
+                font-size: 20px;
+                display: block;
+                margin:0;
+                padding:0;
+            }
+
+
+        }
+        .navigation-up {
+            width: 200px;
+            text-align: center;
+            cursor: pointer;
+            position: absolute;
+            top:0;
+            left: calc(100% - 57%);
+
+            i{
+                color: #000;
+                font-size:  60px;
+                text-align: center;
+                display: block;
+                margin:-10px;
+                padding:0;
+            }
+            p{
+                color: #000;
+                font-size: 20px;
+                display: block;
+                margin:0;
+                padding:0;
+            }
+
+
+        }
+
+    }
+
+.team-page{
+    .navigation-up {
+        width: 200px;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        top:0;
+        left: calc(100% - 57%);
+
+        i{
+            color: #000;
+            font-size:  60px;
+            text-align: center;
+            display: block;
+            margin:-10px;
+            padding:0;
+        }
+        p{
+            color: #000;
+            font-size: 20px;
+            display: block;
+            margin:0;
+            padding:0;
+        }
+    }
+    .navigation-down {
+        width: 200px;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        left: calc(100% - 57%);
+        i{
+            color: #000;
+            font-size:  60px;
+            text-align: center;
+            display: block;
+            margin:-10px;
+            padding:0;
+        }
+        p{
+            color: #000;
+            font-size: 20px;
+            display: block;
+            margin:0;
+            padding:0;
+        }
+}
 
 
 }
-}
 
+    .impressum{
+        .navigation-up {
+            width: 200px;
+            text-align: center;
+            cursor: pointer;
+            position: absolute;
+            top:0;
+            left: calc(100% - 57%);
+
+            i{
+                color: #000;
+                font-size:  60px;
+                text-align: center;
+                display: block;
+                margin:-10px;
+                padding:0;
+            }
+            p{
+                color: #000;
+                font-size: 20px;
+                display: block;
+                margin:0;
+                padding:0;
+            }
+        }
+
+    }
+}
+}

@@ -5,7 +5,8 @@ $(document).ready(function () {
         paginationClickable: true,
         direction: 'vertical',
         mousewheelControl: true,
-        nextButton: '.navigation'
+        nextButton: '.navigation-down',
+        prevButton: '.navigation-up'
     });
 
 });
