@@ -1,182 +1,321 @@
 html, body {
-    position: relative;
-    height: 100%;
-    font-family: "Helvetica Neue";
+  position: relative;
+  height: 100%;
+  font-family: "Helvetica Neue";
 }
+
 body {
 
+  margin: 0;
+  padding: 0;
+
+}
+
+.navigation-down {
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: calc(100% - 57%);
+  i {
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+    display: block;
+    margin: -10px;
+    padding: 0;
+  }
+  p {
+    color: #000;
+    font-size: 20px;
+    display: block;
     margin: 0;
     padding: 0;
+  }
 
 }
-.navigation-down {
-    width: 200px;
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-    bottom: 0;
-    left: calc(100% - 57%);
-    i{
-        color: #000;
-        font-size:  60px;
-        text-align: center;
-        display: block;
-        margin:-10px;
-        padding:0;
-    }
-    p{
-        color: #000;
-        font-size: 20px;
-        display: block;
-        margin:0;
-        padding:0;
-    }
 
-
-}
 .navigation-up {
-    width: 200px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: calc(100% - 57%);
+
+  i {
+    color: #000;
+    font-size: 60px;
     text-align: center;
-    cursor: pointer;
-    position: absolute;
-    top:0;
-    left: calc(100% - 57%);
-
-    i{
-        color: #000;
-        font-size:  60px;
-        text-align: center;
-        display: block;
-        margin:-10px;
-        padding:0;
-    }
-    p{
-        color: #000;
-        font-size: 20px;
-        display: block;
-        margin:0;
-        padding:0;
-    }
-
+    display: block;
+    margin: -10px;
+    padding: 0;
+  }
+  p {
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
 
 }
 
 .swiper-container {
+  width: 100%;
+  height: 100%;
+
+  .swiper-slide {
     width: 100%;
     height: 100%;
 
-.swiper-slide {
+    .landing-page {
+      height: 100%;
+      background-image: url("../assets/imgs/landing_background.JPG");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
 
-
-
-    .landing-page{
-    height: 100%;
-       background-image: url("../assets/imgs/landing_background.JPG");
-       background-size: cover;
-       background-repeat: no-repeat;
-
-        .headline{
-            position: absolute;
-            top: calc(100% - 85%);
-            left: calc(100% - 85%);
-            img{
-                height: 200px;
-                width: 200px;
-                display: inline-block;
-                vertical-align: middle;
-            }
-            h1{
-                color: #fff;
-                font-size: 50px;
-                display: inline-block;
-                vertical-align: middle;
-                padding: 10px;
-
-            }
+      .headline {
+        position: absolute;
+        top: calc(100% - 85%);
+        left: calc(100% - 85%);
+        img {
+          height: 200px;
+          width: 200px;
+          display: inline-block;
+          vertical-align: middle;
         }
-.navigation-down {
-    width: 200px;
-    text-align: center;
-    cursor: pointer;
-    position: absolute;
-    bottom: 0;
-    left: calc(100% - 57%);
-    i{
-        color: #fff;
-        font-size:  60px;
+        h1 {
+          color: #fff;
+          font-size: 50px;
+          display: inline-block;
+          vertical-align: middle;
+          padding: 10px;
+
+        }
+      }
+      .navigation-down {
+        width: 200px;
         text-align: center;
-        display: block;
-        margin:0;
-        padding:0;
-    }
-    p{
-        color: #fff;
-        font-size: 20px;
-        display: block;
-        margin:-10px;
-        padding:0;
-    }
-
-
-}
-
-   }
-
-    .general-informations{
-        height:100%;
-        width: 100%;
-        margin-left: 10%;
-        margin-right: 10%;
-        vertical-align: middle;
-
-
-
-
-        .foreword{
-            margin:0;
-            height: 280px;
-            width: 40%;
-            background-color: red;
-            display: inline-block;
-
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        left: calc(100% - 57%);
+        i {
+          color: #fff;
+          font-size: 60px;
+          text-align: center;
+          display: block;
+          margin: 0;
+          padding: 0;
         }
-        .opening-times{
-            margin:0;
-            height: 280px;
-            width: 40%;
-            background-color: blue;
-            display: inline-block;
-
-        }
-        .location{
-            margin:0;
-            height: 280px;
-            width: 40%;
-            background-color: green;
-            display: inline-block;
-
-
-        }
-        .contact{
-            margin:0;
-            height: 280px;
-            width: 40%;
-            background-color: yellow;
-            display: inline-block;
-
-
+        p {
+          color: #fff;
+          font-size: 20px;
+          display: block;
+          margin: -10px;
+          padding: 0;
         }
 
+      }
 
     }
 
-.team-page{
+    .general-informations {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
 
-}
+      .information-wrapper {
+        height: 90%;
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 0;
 
-    .impressum{
 
+      }
+
+      .foreword {
+        width: 50%;
+        height: 45%;
+        background-color: #005BA9;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        float: left;
+        line-height: normal;
+
+
+        h1{
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          margin:0;
+          padding-top: 10%;
+        }
+        p{
+          color: #fff;
+          text-align: center;
+          font-size: 18px;
+          padding:0% 10% 5% 10%;
+          margin: 0;
+
+        }
+      }
+      .opening-times {
+        width: 50%;
+        height: 45%;
+        display: inline-block;
+        background-color: #e2e2e2;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+        float: right;
+
+      }
+      .location {
+        width: 50%;
+        height: 45%;
+        background-color: #000;
+        margin: 0;
+        padding: 0;
+        float: left;
+        display: inline-block;
+        line-height: normal;
+
+      }
+      .contact {
+        width: 50%;
+        height: 45%;
+        background-color: #004081;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        line-height: normal;
+        float: right;
+
+      }
 
     }
-}
+
+    .team-page {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      .team-wrapper {
+        position: relative;
+        .team {
+          text-align: center;
+          vertical-align: middle;
+          background-color: #005AA7;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 335px;
+          left: 230px;
+          h1 {
+            padding-top: 23%;
+            color: #fff;
+            font-family: "Helvetica Neue";
+          }
+        }
+        .andreas {
+          background-image: url('../assets/imgs/Andreas.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center bottom 25px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 230px;
+          left: 420px;
+        }
+        .felix {
+          background-image: url('../assets/imgs/Felix.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: bottom 20px left -50px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          left: 610px;
+          top: 125px;
+
+        }
+        .stefan {
+          background-image: url('../assets/imgs/Stefan.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: bottom 25px right -50px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          left: 800px;
+          top: 230px;
+
+        }
+        .franziska {
+          background-image: url('../assets/imgs/Franziska.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center bottom 25px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          left: 420px;
+          top: 442px;
+
+        }
+        .silvia {
+          background-image: url('../assets/imgs/Silvia.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 335px;
+          left: 610px;
+
+        }
+        .tanja {
+          background-image: url('../assets/imgs/Tanja.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center bottom 10px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 442px;
+          left: 800px;
+
+        }
+      }
+    }
+
+    .impressum {
+
+    }
+  }
 }

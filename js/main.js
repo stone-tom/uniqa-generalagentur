@@ -6,7 +6,8 @@ $(document).ready(function () {
         direction: 'vertical',
         mousewheelControl: true,
         nextButton: '.navigation-down',
-        prevButton: '.navigation-up'
+        prevButton: '.navigation-up',
+        initialSlide: 1
     });
 
 });
