@@ -138,7 +138,6 @@ body {
         margin-right: 5%;
         line-height: 0;
 
-
       }
 
       .foreword {
@@ -151,19 +150,18 @@ body {
         float: left;
         line-height: normal;
 
-
-        h1{
+        h1 {
           color: #fff;
           text-align: center;
           font-size: 30px;
-          margin:0;
+          margin: 0;
           padding-top: 10%;
         }
-        p{
+        p {
           color: #fff;
           text-align: center;
           font-size: 18px;
-          padding:0% 10% 5% 10%;
+          padding: 0% 10% 5% 10%;
           margin: 0;
 
         }
@@ -177,7 +175,30 @@ body {
         padding: 0;
         line-height: normal;
         float: right;
+        h1 {
+          color: #000;
+          text-align: center;
+          font-size: 30px;
+          margin: 0;
+          padding-top: 10%;
+        }
+        .times {
+          padding: 0% 30% 5% 30%;
+          .day {
+            color: #000;
+            font-size: 18px;
+            margin: 0;
+            display: inline-block;
 
+          }
+          .time {
+            display: inline-block;
+            color: #000;
+            font-size: 18px;
+            margin: 0;
+            float: right;
+          }
+        }
       }
       .location {
         width: 50%;
@@ -199,7 +220,21 @@ body {
         display: inline-block;
         line-height: normal;
         float: right;
+        h1 {
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          margin: 0;
+          padding-top: 10%;
+        }
+        p {
+          color: #fff;
+          text-align: center;
+          font-size: 18px;
+          padding: 6% 10% 5% 10%;
+          margin: 0;
 
+        }
       }
 
     }

@@ -7,7 +7,8 @@ $(document).ready(function () {
         mousewheelControl: true,
         nextButton: '.navigation-down',
         prevButton: '.navigation-up',
-        initialSlide: 1
+        keyboardControl: true,
+        initialSlide: 0
     });
 
 });
