@@ -275,6 +275,38 @@ body {
           position: absolute;
           top: 230px;
           left: 420px;
+          .andreas-hovered {
+            overflow: hidden;
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s;
+            h1 {
+              margin: 0;
+              font-size: 18px;
+              color: #fff;
+              text-align: center;
+            }
+            i {
+              text-align: center;
+
+            }
+            p {
+              text-align: center;
+
+            }
+          }
+          &:hover .andreas-hovered {
+            opacity: 1;
+          }
+
         }
         .felix {
           background-image: url('../assets/imgs/Felix.JPG');
