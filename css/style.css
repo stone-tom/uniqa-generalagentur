@@ -223,7 +223,6 @@ body {
           top: 230px;
           left: 420px; }
           .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered {
-            overflow: hidden;
             width: 240px;
             height: 250px;
             -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
@@ -236,14 +235,44 @@ body {
             -o-transition: opacity .5s;
             transition: opacity .5s; }
             .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered h1 {
+              padding-top: 20%;
               margin: 0;
-              font-size: 18px;
+              font-size: 20px;
               color: #fff;
               text-align: center; }
-            .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered i {
-              text-align: center; }
-            .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered p {
-              text-align: center; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered .mail {
+              position: absolute;
+              left: 24px;
+              text-align: center;
+              display: inline; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered .mail p {
+                display: inline;
+                font-size: 15px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered .mail p i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered .phone {
+              position: absolute;
+              left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered .phone p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .andreas .andreas-hovered .phone p i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
           .swiper-container .swiper-slide .team-page .team-wrapper .andreas:hover .andreas-hovered {
             opacity: 1; }
         .swiper-container .swiper-slide .team-page .team-wrapper .felix {
@@ -258,6 +287,59 @@ body {
           position: absolute;
           left: 610px;
           top: 125px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              text-align: center; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered .mail {
+              position: absolute;
+              left: 24px;
+              text-align: center;
+              display: inline; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered .mail p {
+                display: inline;
+                font-size: 15px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered .mail p i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered .phone {
+              position: absolute;
+              left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered .phone p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .felix .felix-hovered .phone p i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .felix:hover .felix-hovered {
+            opacity: 1; }
         .swiper-container .swiper-slide .team-page .team-wrapper .stefan {
           background-image: url("../assets/imgs/Stefan.JPG");
           background-size: cover;
@@ -270,6 +352,59 @@ body {
           position: absolute;
           left: 800px;
           top: 230px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              text-align: center; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered .mail {
+              position: absolute;
+              left: 24px;
+              text-align: center;
+              display: inline; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered .mail p {
+                display: inline;
+                font-size: 15px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered .mail p i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered .phone {
+              position: absolute;
+              left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered .phone p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .stefan .stefan-hovered .phone p i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .stefan:hover .stefan-hovered {
+            opacity: 1; }
         .swiper-container .swiper-slide .team-page .team-wrapper .franziska {
           background-image: url("../assets/imgs/Franziska.JPG");
           background-size: cover;
@@ -282,6 +417,59 @@ body {
           position: absolute;
           left: 420px;
           top: 442px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 18px;
+              color: #fff;
+              text-align: center; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .mail {
+              position: absolute;
+              left: 18px;
+              text-align: center;
+              display: inline; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .mail p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .mail p i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .phone {
+              position: absolute;
+              left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .phone p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .phone p i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .franziska:hover .franziska-hovered {
+            opacity: 1; }
         .swiper-container .swiper-slide .team-page .team-wrapper .silvia {
           background-image: url("../assets/imgs/Silvia.JPG");
           background-size: cover;
@@ -294,6 +482,59 @@ body {
           position: absolute;
           top: 335px;
           left: 610px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              text-align: center; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered .mail {
+              position: absolute;
+              left: 18px;
+              text-align: center;
+              display: inline; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered .mail p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered .mail p i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered .phone {
+              position: absolute;
+              left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered .phone p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .silvia .silvia-hovered .phone p i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .silvia:hover .silvia-hovered {
+            opacity: 1; }
         .swiper-container .swiper-slide .team-page .team-wrapper .tanja {
           background-image: url("../assets/imgs/Tanja.JPG");
           background-size: cover;
@@ -306,5 +547,58 @@ body {
           position: absolute;
           top: 442px;
           left: 800px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 17px;
+              color: #fff;
+              text-align: center; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered .mail {
+              position: absolute;
+              left: 18px;
+              text-align: center;
+              display: inline; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered .mail p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered .mail p i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+            .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered .phone {
+              position: absolute;
+              left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px; }
+              .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered .phone p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle; }
+                .swiper-container .swiper-slide .team-page .team-wrapper .tanja .tanja-hovered .phone p i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px; }
+          .swiper-container .swiper-slide .team-page .team-wrapper .tanja:hover .tanja-hovered {
+            opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
