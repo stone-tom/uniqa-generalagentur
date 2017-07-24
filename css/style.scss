@@ -1,7 +1,13 @@
+@font-face {
+font-family:"Californian";
+src:url(../../assets/fonts/CALIFB.woff) format('woff'),
+ url(../../assets/fonts/CALIFB.eot) format('embedded-opentype');
+}
+
 html, body {
   position: relative;
   height: 100%;
-  font-family: "Helvetica Neue";
+  font-family: "Californian";
 }
 
 body {
@@ -260,7 +266,7 @@ body {
           h1 {
             padding-top: 23%;
             color: #fff;
-            font-family: "Helvetica Neue";
+            font-family: "Californian";
           }
         }
         .andreas {
@@ -749,4 +755,70 @@ body {
 
     }
   }
+}
+
+
+//RESPONISVIE
+
+@media screen and (max-width:800px){
+
+.swiper-container .swiper-slide .landing-page{
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-slide .landing-page .headline{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top:0;
+  left:0;
+  vertical-align: middle;
+}
+.swiper-container .swiper-slide .landing-page .headline img{
+  display: block;
+  position: absolute;
+  margin-left: calc(100% - 60%);
+  margin-right: calc(100% - 40%);
+  margin-top: calc(100% - 85%);
+  vertical-align: middle;
+}
+.swiper-container .swiper-slide .landing-page .headline h1{
+display: block;
+text-align: center;
+position: relative;
+margin-top: calc(100% - 55%);
+}
+}
+
+@media screen and (max-width:700px){
+
+.swiper-container .swiper-slide .landing-page{
+  width: 100%;
+  height: 100%;
+}
+.swiper-container .swiper-slide .landing-page .headline{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+  top:0;
+  left:0;
+  vertical-align: middle;
+}
+.swiper-container .swiper-slide .landing-page .headline img{
+  display: block;
+  position: absolute;
+  margin-left: calc(100% - 60%);
+  margin-right: calc(100% - 40%);
+  margin-top: calc(100% - 70%);
+  vertical-align: middle;
+}
+.swiper-container .swiper-slide .landing-page .headline h1{
+display: block;
+text-align: center;
+position: relative;
+margin-top: calc(100% - 35%);
+margin-left: calc(100% - 90%);
+}
 }
