@@ -409,8 +409,8 @@ body {
                   font-size: 20px; }
           .swiper-container .swiper-slide .team-page .team-wrapper .stefan:hover .stefan-hovered {
             opacity: 1; }
-        .swiper-container .swiper-slide .team-page .team-wrapper .franziska {
-          background-image: url("../assets/imgs/Franziska.JPG");
+        .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke {
+          background-image: url("../assets/imgs/Jasminke.JPG");
           background-size: cover;
           background-repeat: no-repeat;
           background-position: center bottom 25px;
@@ -421,7 +421,7 @@ body {
           position: absolute;
           left: 420px;
           top: 442px; }
-          .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered {
+          .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered {
             width: 240px;
             height: 250px;
             -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
@@ -433,44 +433,44 @@ body {
             -ms-transition: opacity .5s;
             -o-transition: opacity .5s;
             transition: opacity .5s; }
-            .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered h1 {
+            .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered h1 {
               padding-top: 20%;
               margin: 0;
               font-size: 18px;
               color: #fff;
               text-align: center; }
-            .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .mail {
+            .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered .mail {
               margin-left: 18px;
               text-align: center;
               display: inline; }
-              .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .mail p {
+              .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered .mail p {
                 display: inline;
                 font-size: 13px;
                 color: #fff;
                 vertical-align: middle; }
-                .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .mail p i {
+                .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered .mail p i {
                   color: #fff;
                   padding-right: 5px;
                   vertical-align: middle;
                   display: inline;
                   font-size: 20px; }
-            .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .phone {
+            .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered .phone {
               margin-left: 40px;
               text-align: center;
               display: inline;
               padding-top: 10px; }
-              .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .phone p {
+              .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered .phone p {
                 display: inline;
                 font-size: 13px;
                 color: #fff;
                 vertical-align: middle; }
-                .swiper-container .swiper-slide .team-page .team-wrapper .franziska .franziska-hovered .phone p i {
+                .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke .jasminke-hovered .phone p i {
                   color: #fff;
                   padding-right: 2px;
                   vertical-align: middle;
                   display: inline;
                   font-size: 20px; }
-          .swiper-container .swiper-slide .team-page .team-wrapper .franziska:hover .franziska-hovered {
+          .swiper-container .swiper-slide .team-page .team-wrapper .jasminnke:hover .jasminke-hovered {
             opacity: 1; }
         .swiper-container .swiper-slide .team-page .team-wrapper .silvia {
           background-image: url("../assets/imgs/Silvia.JPG");
@@ -599,6 +599,25 @@ body {
           .swiper-container .swiper-slide .team-page .team-wrapper .tanja:hover .tanja-hovered {
             opacity: 1; }
 
+@media screen and (max-width: 1500px) {
+  .team-wrapper {
+    margin-left: calc(100% - 110%); }
+
+  .information-wrapper {
+    padding-top: 20px; }
+
+  .content {
+    margin-top: 50px; } }
+@media screen and (max-width: 1200px) {
+  .team-wrapper {
+    margin-right: calc(100% - 70%);
+    transform: scale(0.9); } }
+@media screen and (max-width: 1000px) {
+  .information-wrapper {
+    padding-top: 40px; }
+
+  .content {
+    margin-top: 80px; } }
 @media screen and (max-width: 800px) {
   .swiper-container .swiper-slide .landing-page .navigation-down {
     position: absolute;
@@ -649,6 +668,72 @@ body {
     text-align: center;
     position: relative;
     margin-top: calc(100% - 35%);
-    margin-left: calc(100% - 90%); } }
+    margin-left: calc(100% - 90%);
+    font-size: 50px; } }
+@media screen and (max-width: 600px) {
+  .swiper-container .swiper-slide .landing-page .headline h1 {
+    margin-top: calc(100% - 30%);
+    margin-left: calc(100% - 97%);
+    font-size: 50px; }
+
+  .swiper-container .swiper-slide .landing-page .headline img {
+    margin-left: calc(100% - 67%); }
+
+  .swiper-container .swiper-slide .landing-page .navigation-down {
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 64%); }
+
+  .information-wrapper {
+    padding-top: 60px; } }
+@media screen and (max-width: 500px) {
+  .swiper-container .swiper-slide .landing-page .headline h1 {
+    margin-top: calc(100% - 20%);
+    margin-left: calc(100% - 95%);
+    font-size: 40px; }
+
+  .swiper-container .swiper-slide .landing-page .headline img {
+    margin-left: calc(100% - 67%); }
+
+  .swiper-container .swiper-slide .landing-page .navigation-down {
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 64%); } }
+@media screen and (max-width: 400px) {
+  .swiper-container .swiper-slide .landing-page .headline h1 {
+    margin-top: calc(100% - 10%);
+    margin-left: calc(100% - 97%);
+    font-size: 40px; }
+
+  .swiper-container .swiper-slide .landing-page .headline img {
+    margin-left: calc(100% - 73%);
+    height: 180px;
+    width: 180px; }
+
+  .swiper-container .swiper-slide .landing-page .navigation-down {
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 64%); } }
+@media screen and (max-width: 400px) {
+  .swiper-container .swiper-slide .landing-page .headline h1 {
+    margin-top: calc(100% - 10%);
+    margin-left: calc(100% - 97%);
+    font-size: 40px; }
+
+  .swiper-container .swiper-slide .landing-page .headline img {
+    margin-left: calc(100% - 73%);
+    height: 180px;
+    width: 180px; }
+
+  .swiper-container .swiper-slide .landing-page .navigation-down {
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 75%); }
+
+  .swiper-container .swiper-slide .landing-page .navigation-down p {
+    font-size: 20px; }
+
+  .swiper-container .swiper-slide .landing-page .navigation-down p {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=style.css.map */

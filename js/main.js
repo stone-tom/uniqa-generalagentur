@@ -8,7 +8,7 @@ $(document).ready(function () {
         nextButton: '.navigation-down',
         prevButton: '.navigation-up',
         keyboardControl: true,
-        initialSlide: 0
+        initialSlide: 2
     });
 
 });
