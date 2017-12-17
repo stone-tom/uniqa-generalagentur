@@ -1,0 +1,28 @@
+@media screen and (max-width: 1500px) {
+  .team-wrapper {
+    margin-left: calc(100% - 115%); } }
+@media screen and (max-width: 1500px) {
+  .team-wrapper {
+    margin-left: calc(100% - 110%); }
+
+  .information-wrapper {
+    padding-top: 20px; }
+
+  .content {
+    margin-top: 50px; } }
+@media screen and (max-width: 1200px) {
+  .team-wrapper {
+    margin-left: -10%;
+    transform: scale(0.9); } }
+@media screen and (max-width: 1000px) {
+  .information-wrapper {
+    padding-top: 40px; }
+
+  .content {
+    margin-top: 80px; }
+
+  .team-wrapper {
+    margin-left: -16%;
+    transform: scale(0.85); } }
+
+/*# sourceMappingURL=style_desktop.css.map */
