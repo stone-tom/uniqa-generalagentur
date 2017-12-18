@@ -1,10 +1,777 @@
 //RESPONISVIE
 
-@media screen and (max-width:1500px) {
-  .team-wrapper {
-    margin-left: calc(100% - 115%);
+/*
+@font-face {
+
+font-family:"Californian";
+src:url(../../assets/fonts/CALIFB.woff) format('woff'),
+ url(../../assets/fonts/CALIFB.eot) format('embedded-opentype');
+}
+*/
+html, body {
+  position: relative;
+  height: 100%;
+  font-family: "Californian";
+}
+
+body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+.navigation-down {
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: calc(100% - 57%);
+  i {
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+    display: block;
+    margin: -10px;
+    padding: 0;
+  }
+  p {
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+.navigation-up {
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: calc(100% - 57%);
+
+  i {
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+    display: block;
+    margin: -10px;
+    padding: 0;
+  }
+  p {
+    color: #000;
+    font-size: 20px;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+
+  .swiper-slide {
+    width: 100%;
+    height: 100%;
+
+    .landing-page {
+      height: 100%;
+      background-image: url("../assets/imgs/background_landing.JPG");
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin: 0;
+      padding: 0;
+
+      .headline {
+        position: absolute;
+        top: calc(100% - 77%);
+        left: calc(100% - 80%);
+        img {
+          height: 200px;
+          width: 200px;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        h1 {
+          color: #fff;
+          font-size: 65px;
+
+          display: inline-block;
+          vertical-align: middle;
+          padding: 10px;
+
+
+
+        }
+      }
+      .navigation-down {
+        width: 200px;
+        text-align: center;
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        left: calc(100% - 57%);
+        i {
+          color: #fff;
+          font-size: 60px;
+          text-align: center;
+          display: block;
+          margin: 0;
+          padding: 0;
+        }
+        p {
+          color: #fff;
+          font-size: 30px;
+          display: block;
+          margin: -10px;
+          padding: 0;
+        }
+
+      }
+
+    }
+
+    .general-informations {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+
+      .information-wrapper {
+        height: 90%;
+        width: 90%;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        line-height: 0;
+
+      }
+
+      .foreword {
+        width: 50%;
+        height: 45%;
+        background-color: #005BA9;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        float: left;
+        line-height: normal;
+
+        h1 {
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          margin: 0;
+          padding-top: 10%;
+        }
+        p {
+          color: #fff;
+          text-align: center;
+          font-size: 18px;
+          padding: 0% 10% 5% 10%;
+          margin: 0;
+
+        }
+      }
+      .opening-times {
+        width: 50%;
+        height: 45%;
+        display: inline-block;
+        background-color: #e2e2e2;
+        margin: 0;
+        padding: 0;
+        line-height: normal;
+        float: right;
+        h1 {
+          color: #000;
+          text-align: center;
+          font-size: 30px;
+          margin: 0;
+          padding-top: 10%;
+        }
+        .times {
+          padding: 0% 30% 5% 30%;
+          .day {
+            color: #000;
+            font-size: 18px;
+            margin: 0;
+            display: inline-block;
+
+          }
+          .time {
+            display: inline-block;
+            color: #000;
+            font-size: 18px;
+            margin: 0;
+            float: right;
+          }
+        }
+      }
+      .location {
+        width: 50%;
+        height: 45%;
+        background-color: #000;
+        margin: 0;
+        padding: 0;
+        float: left;
+        display: inline-block;
+        line-height: normal;
+
+      }
+      .contact {
+        width: 50%;
+        height: 45%;
+        background-color: #004081;
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+        line-height: normal;
+        float: right;
+        h1 {
+          color: #fff;
+          text-align: center;
+          font-size: 30px;
+          margin: 0;
+          padding-top: 10%;
+        }
+        p {
+          color: #fff;
+          text-align: center;
+          font-size: 18px;
+          padding: 6% 10% 5% 10%;
+          margin: 0;
+
+        }
+      }
+
+    }
+
+    .team-page {
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      .team-wrapper {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        .team {
+          text-align: center;
+          vertical-align: middle;
+          background-color: #005AA7;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 335px;
+          left: 230px;
+          h1 {
+            padding-top: 23%;
+            color: #fff;
+            font-family: "Californian";
+          }
+        }
+        .andreas {
+          background-image: url('../assets/imgs/Andreas.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center bottom 25px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 230px;
+          left: 420px;
+          .andreas-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s;
+            h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              text-align: center;
+
+            }
+
+            .mail {
+              margin-left: 24px;
+              text-align: center;
+              display: inline;
+              p {
+                display: inline;
+                font-size: 15px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+                }
+              }
+
+            }
+            .phone {
+              margin-left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px;
+
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+
+                }
+              }
+            }
+          }
+          &:hover .andreas-hovered {
+            opacity: 1;
+          }
+
+        }
+        .felix {
+          background-image: url('../assets/imgs/Felix.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: bottom 20px left -50px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          left: 610px;
+          top: 125px;
+
+          .felix-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s;
+            h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              text-align: center;
+
+            }
+
+            .mail {
+              margin-left: 24px;
+              text-align: center;
+              display: inline;
+              p {
+                display: inline;
+                font-size: 15px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+                }
+              }
+
+            }
+            .phone {
+              margin-left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px;
+
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+
+                }
+              }
+            }
+          }
+          &:hover .felix-hovered {
+            opacity: 1;
+          }
+
+        }
+        .stefan {
+          background-image: url('../assets/imgs/Stefan.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: bottom 25px right -50px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          left: 800px;
+          top: 230px;
+
+          .stefan-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s;
+            h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              text-align: center;
+
+            }
+
+            .mail {
+              margin-left: 24px;
+              text-align: center;
+              display: inline;
+              p {
+                display: inline;
+                font-size: 15px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+                }
+              }
+
+            }
+            .phone {
+              margin-left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px;
+
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+
+                }
+              }
+            }
+          }
+          &:hover .stefan-hovered {
+            opacity: 1;
+          }
+
+        }
+        .jasminnke {
+          background-image: url('../assets/imgs/Jasminke.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center bottom 25px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          left: 420px;
+          top: 442px;
+
+          .jasminke-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s;
+            h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 18px;
+              color: #fff;
+              text-align: center;
+
+            }
+
+            .mail {
+              margin-left: 18px;
+              text-align: center;
+              display: inline;
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+                }
+              }
+
+            }
+            .phone {
+              margin-left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px;
+
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+
+                }
+              }
+            }
+          }
+          &:hover .jasminke-hovered {
+            opacity: 1;
+          }
+
+        }
+        .silvia {
+          background-image: url('../assets/imgs/Silvia.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 335px;
+          left: 610px;
+
+          .silvia-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s;
+            h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 20px;
+              color: #fff;
+              text-align: center;
+
+            }
+
+            .mail {
+              margin-left: 18px;
+              text-align: center;
+              display: inline;
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+                }
+              }
+
+            }
+            .phone {
+              margin-left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px;
+
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+
+                }
+              }
+            }
+          }
+          &:hover .silvia-hovered {
+            opacity: 1;
+          }
+
+        }
+        .tanja {
+          background-image: url('../assets/imgs/Tanja.JPG');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center bottom 10px;
+          width: 240px;
+          height: 250px;
+          -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+          clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+          position: absolute;
+          top: 442px;
+          left: 800px;
+
+          .tanja-hovered {
+            width: 240px;
+            height: 250px;
+            -webkit-clip-path: polygon(25% 0%, 75% 0%, 100% 25%, 75% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 75% 0%, 100% 40%, 75% 80%, 25% 80%, 0% 40%);
+            background-color: rgba(0, 90, 167, 0.76);
+            opacity: 0;
+            -webkit-transition: opacity .5s;
+            -moz-transition: opacity .5s;
+            -ms-transition: opacity .5s;
+            -o-transition: opacity .5s;
+            transition: opacity .5s;
+            h1 {
+              padding-top: 20%;
+              margin: 0;
+              font-size: 17px;
+              color: #fff;
+              text-align: center;
+
+            }
+
+            .mail {
+              margin-left: 18px;
+              text-align: center;
+              display: inline;
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 5px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+                }
+              }
+
+            }
+            .phone {
+              margin-left: 40px;
+              text-align: center;
+              display: inline;
+              padding-top: 10px;
+
+              p {
+                display: inline;
+                font-size: 13px;
+                color: #fff;
+                vertical-align: middle;
+                i {
+                  color: #fff;
+                  padding-right: 2px;
+                  vertical-align: middle;
+                  display: inline;
+                  font-size: 20px;
+
+                }
+              }
+            }
+          }
+          &:hover .tanja-hovered {
+            opacity: 1;
+          }
+
+        }
+      }
+    }
+
+    .impressum {
+
+    }
   }
 }
+
+
+
+
+
+//RESPONSIVE
+
 
 @media screen and (max-width:1500px) {
   .team-wrapper{
@@ -16,7 +783,6 @@
   .content {
     margin-top: 50px;
   }
-
 }
 
 @media screen and (max-width:1200px) {
@@ -25,7 +791,15 @@
     transform: scale(0.9);
 
   }
+  .swiper-container .swiper-slide .landing-page .headline h1{
+    font-size: 60px;
+  }
+  .swiper-container .swiper-slide .landing-page .headline img{
+    width: 180px;
+    height: 180px;
+  }
 }
+
 
 @media screen and (max-width:1000px) {
   .information-wrapper{
